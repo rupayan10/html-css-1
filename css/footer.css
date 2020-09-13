@@ -1,0 +1,66 @@
+.footer {
+	position: relative;
+	background-color: hsl(0, 0%, 98%);
+	padding: 30px;
+}
+
+.footer__svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: var(--svg-index);
+}
+
+.footer__top {
+	position: relative;
+	z-index: var(--default-index);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.footer__brand {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.footer__social_links > img {
+	opacity: 0.6;
+	margin-right: 10px;
+	cursor: default;
+}
+.footer__social_links > img:hover {
+	opacity: 2;
+	filter: brightness(0.2);
+}
+
+.footer__sections {
+	position: relative;
+	z-index: var(--default-index);
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__section__heading {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+	opacity: 0.6;
+	margin: 20px 0;
+}
+
+.footer__section__content {
+	margin-top: 30px;
+}
+.footer__section__content > h5 {
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.footer__section__content > h5:hover {
+	text-decoration: underline;
+}

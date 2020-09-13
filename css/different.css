@@ -1,0 +1,34 @@
+.different {
+    margin: auto;
+	margin-top: 400px;
+    max-width: 75%;
+}
+
+.different__heading {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+	font-size: 80px;
+	margin: 40px 0;
+}
+
+.different__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.different__content > div {
+	flex: 0.33;
+	margin: 25px;
+}
+
+.different__heading__2 {
+	font-size: 25px;
+	margin: 10px 0;
+	font-weight: 600;
+}
+
+.different__desc {
+	opacity: 0.6;
+	font-size: 15px;
+}

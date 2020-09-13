@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 1;
+	overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root {
+	--default-index: 6;
+	--svg-index: 2;
+}
+body,
+html {
+	width: 100vw;
+	font-family: 'Karla', sans-serif;
+}
+
+.z {
+	position: relative;
+	padding-top: 100px;
+	z-index: 16;
+	background-color: #fff;
+}
+
+.line_white {
+	width: 212px;
+	border: 1px solid #fff;
+	margin-bottom: 50px;
+}
+.line_grey {
+	width: 212px;
+	border: 1px solid hsl(216, 30%, 68%);
+}
+
+.flex {
+	display: flex;
+}
